@@ -155,6 +155,9 @@
         "@babel/core",
         "postcss"
       ]
+    },
+    "patchedDependencies": {
+      "ember-a11y-testing": "patches/ember-a11y-testing.patch"
     }
   },
   "engines": {

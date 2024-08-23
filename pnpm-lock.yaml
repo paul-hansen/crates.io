@@ -11,6 +11,11 @@ overrides:
   ember-svg-jar>cheerio: 1.0.0-rc.12
   miragejs: 0.1.48
 
+patchedDependencies:
+  ember-a11y-testing:
+    hash: lw2dvmcedsufqxak2zqfemogna
+    path: patches/ember-a11y-testing.patch
+
 importers:
 
   .:
@@ -123,7 +128,7 @@ importers:
         version: 3.0.0
       ember-a11y-testing:
         specifier: 6.1.1
-        version: 6.1.1(@babel/core@7.25.2)(@ember/test-helpers@4.0.2(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.93.0)))(qunit@2.22.0)(webpack@5.93.0)
+        version: 6.1.1(patch_hash=lw2dvmcedsufqxak2zqfemogna)(@babel/core@7.25.2)(@ember/test-helpers@4.0.2(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.93.0)))(qunit@2.22.0)(webpack@5.93.0)
       ember-auto-import:
         specifier: 2.7.4
         version: 2.7.4(webpack@5.93.0)
@@ -14079,7 +14084,7 @@ snapshots:
       minimalistic-assert: 1.0.1
       minimalistic-crypto-utils: 1.0.1
 
-  ember-a11y-testing@6.1.1(@babel/core@7.25.2)(@ember/test-helpers@4.0.2(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.93.0)))(qunit@2.22.0)(webpack@5.93.0):
+  ember-a11y-testing@6.1.1(patch_hash=lw2dvmcedsufqxak2zqfemogna)(@babel/core@7.25.2)(@ember/test-helpers@4.0.2(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.93.0)))(qunit@2.22.0)(webpack@5.93.0):
     dependencies:
       '@ember/test-helpers': 4.0.2(@babel/core@7.25.2)(ember-source@5.11.0(@glimmer/component@1.1.2(@babel/core@7.25.2))(rsvp@4.8.5)(webpack@5.93.0))
       '@ember/test-waiters': 3.1.0
